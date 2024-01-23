@@ -62,7 +62,7 @@ public class tehtava3 {
         public void palvele() throws InterruptedException {
 
             while (!jono.isEmpty()) {
-                int palveluaika = (int) (Math.random() * 1000);
+                int palveluaika = (int) (Math.random() * 10000);
                 Thread.sleep(palveluaika);
 
                 Asiakas asiakas = poistaJonosta();
