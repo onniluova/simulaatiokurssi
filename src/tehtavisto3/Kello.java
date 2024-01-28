@@ -1,7 +1,7 @@
 package tehtavisto3;
 
 public class Kello {
-    long aika = System.currentTimeMillis();
+    double aika = System.currentTimeMillis();
     final private static Kello instanssi = new Kello();
 
     private Kello() {
@@ -12,11 +12,11 @@ public class Kello {
         return instanssi;
     }
 
-    public long palautaAika() {
+    public double palautaAika() {
         return aika;
     }
 
-    public void muutaAikaa(long uusiAika) {
+    public void muutaAikaa(double uusiAika) {
         this.aika = uusiAika;
     }
 }
