@@ -1,3 +1,5 @@
+package Tehtavisto1;
+
 public class tehtava1 {
     public static class Asiakas {
         private static int counter = 0; // Static counter for ID

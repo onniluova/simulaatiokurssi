@@ -1,3 +1,5 @@
+package Tehtavisto1;
+
 import java.util.Scanner;
 import java.util.LinkedList;
 public class tehtava2 {

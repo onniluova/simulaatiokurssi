@@ -1,3 +1,5 @@
+package Tehtavisto1;
+
 import java.util.Scanner;
 import java.util.LinkedList;
 import java.util.ArrayList;
