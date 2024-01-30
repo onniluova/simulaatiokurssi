@@ -7,7 +7,9 @@ public class SaapumisTapahtuma {
         this.tyyppi = tyyppi;
         this.kellonaika = kellonaika;
     }
-
+    public double getKellonaika() {
+        return kellonaika;
+    }
     @Override
     public String toString() {
         return "Tyyppi = " + tyyppi + " kellonaika = " + (long)(kellonaika / 1000) + " sekuntia";
